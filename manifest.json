@@ -1,0 +1,13 @@
+{
+  "name": "Autocomplete on",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Autocomplete on",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["autocomplete_on.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
